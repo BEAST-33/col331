@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 int main() {
-	int *x = malloc(sizeof(int));
+	int *x = (int*)malloc(sizeof(int));
 	printf("%d\n", *x);
 	free(x);
 }
